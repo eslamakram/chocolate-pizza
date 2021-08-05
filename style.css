@@ -1,0 +1,42 @@
+
+body{
+margin: auto;
+ }
+  header{
+      grid-template-columns: auto auto;
+
+      gap: 100px;
+  }
+  header section:nth-child(1){
+    grid-template-columns: auto auto;   
+  }
+  header section:nth-child(2){
+      float:right ;
+  }
+  main section:nth-child(1){
+    grid-template-columns: auto auto;
+    
+
+}
+main section:nth-child(1) img {
+
+    float:right ;
+
+}
+main section:nth-child(4){
+    grid-template-columns: auto auto;
+    
+
+}
+footer section:nth(1){
+    grid-template-columns: auto auto;
+
+}
+footer section:nth(1) p{
+    grid-template-columns: auto auto;
+
+}
+
+footer section:nth(1) p button{
+    float:right
+}
